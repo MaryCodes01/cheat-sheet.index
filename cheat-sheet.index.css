@@ -1,0 +1,70 @@
+*{
+	font-family: Constantina, Sitka Banner, serif
+	
+	
+}
+
+h1{
+	font-size: 46px;
+	
+}
+
+h3{
+	font-size: 38px;
+	
+}
+
+h4{
+	font-size: 28px;
+	
+}
+
+h5{
+	font-size: 18px;
+	
+}
+
+p{
+	font-size: 16px;
+	word-spacing: 3px
+}
+
+span{
+	color: #000;
+	background-color: #ccb2cc;
+	font-weight: 700;
+	font-size: 16px;
+	
+}
+
+
+button:hover{
+	background-color: lightblue;
+	position: center;
+	display: inline-block;
+	border: clear;
+	color: gray;
+	font-weight: 700;
+	
+}
+
+img[src*='file-folder.png']{
+	height: 400px;
+	width: 500px;
+	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+body{
+	margin-left: 25px;
+	margin: 25px;
+	background-color: AntiqueWhite;
+	
+}
+
+div{
+	text-align: center;
+}
