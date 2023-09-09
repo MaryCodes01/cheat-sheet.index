@@ -1,70 +1,50 @@
 *{
-	font-family: Constantina, Sitka Banner, serif
-	
+	font-family: Constantina, Sitka Banner, serif;
 	
 }
 
 h1{
-	font-size: 46px;
+	font-size:
 	
 }
 
 h3{
-	font-size: 38px;
+	font-size:
 	
 }
 
 h4{
-	font-size: 28px;
+	font-size:
 	
 }
 
 h5{
-	font-size: 18px;
+	font-size:
 	
 }
 
 p{
-	font-size: 16px;
-	word-spacing: 3px
+	font-size:
+	
 }
 
 span{
-	color: #000;
-	background-color: #ccb2cc;
-	font-weight: 700;
-	font-size: 16px;
+	color:
+	background-color:
 	
 }
 
-
-button:hover{
-	background-color: lightblue;
-	position: center;
-	display: inline-block;
-	border: clear;
-	color: gray;
-	font-weight: 700;
+a{
+	*/ need ancher to do something after hovoring over*/
 	
 }
 
-img[src*='file-folder.png']{
-	height: 400px;
-	width: 500px;
-	float: right;
-	margin-right: 25px;
-	margin-top: 25px;
-	margin-bottom: 40px;
-	margin-left: 40px;
-}
-
-body{
-	margin-left: 25px;
-	margin: 25px;
-	background-color: AntiqueWhite;
+button{
+	background-color:
+	position:
+	display:
+	weight:
+	height:
 	
 }
 
-div{
-	text-align: center;
-}
