@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Cheat Sheet</title>
+  <h1 id="top">CSS Cheat Sheet</h1>
+  <link href=".\resources\cheat-sheet.index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <h3>Ever wonder how certain pages have special font, pictures or cool backgrounds?</h3>
+     <h4>Wonder no more, here you will learn some of the basic steps to accomplish some of those features</h4>
+	 <br>
+	 <p>CSS is used to style or make your HTML page look more lively. It uses <span>DECLARATIONS</span>, which is the core of CSS. <span>Declarations</span> are used to style an element inside HTML, and it is styled however it was written in the CSS page.</p>
+	 
+	   <div><h5>LEARN HOW TO:</h5> 
+	   <button><a href="#img">INPUT AN IMAGE</a></button><!--this will be in same html page, might not even need the button function-->
+	   <button><a href=".\resources\how-to-center.index.html">CENTER AN IMAGE</a></button><!--have separate html file for this-->
+	   <button><a href=".\resources\how-to-background.index.html">USE A BACKGROUND IMAGE IN FULL</a></button></div><!--have separate html file for this-->
+	   
+	 <h5 id="img">Learn how to Input an Image in your HTML</h5>
+	 
+	   <p>If you know how to link your CSS to your HTML, you most likely know how to link an image to your HTML. But, what if for some reason your image doesn't show when you try to view your web page? Is there anything you can do, besides to give up? <strong>DON'T GIVE UP!!!</strong> Instead try the following tips.</p>
+	   <br>
+	   <h5>For the sake of this illustration, we will start from the beginning</h5>
+	   <p>The first thing you want to enter is <span>&lt;!DOCTYPE html&gt;</span>, just kidding... not that far back. When inputting an image you want to watch out for the following</p>
+	   <!--List of things to do in order to make a stubborn image appear on the web page-->
+	     <ul>
+		   <li>Make sure your code is written correctly:</li>
+		   <br>
+		   
+		    <span>&lt;img src ='your-images-path'&gt;</span> <em>remember that the path of your image depends on where it is located on your file folder.</em><img src=".\resources\images\file-folder.png">
+		   <br>
+		   <br>
+		   <li>Make sure the name of your path is as simple as posible, and that it does not contain any spacing or apostrophe (&#8217). This may cause problems when you try to write the path on your code.</li>
+		   <br>
+		   
+		   <li>Check the spelling- sometimes a single letter can cause a big problem if you are not spelling it correctly.</li>
+		   <br>
+		   
+		   <li>Another thing you can try is; when you are writing the path try a few things in front of your path. Sometimes, if you are not sure where you currently are in your folder, and where you are directing the path, the following can make a difference.</li>
+		     <br>
+			
+			   <ol>
+			     <li>Try adding a <span>../</span> in front of your path.example: <span>href="../your-image-path.jpg"</span></li>
+			     <li>If that doesn't work, try adding a <span>./</span> in front of your path. In other words, remove a period(.) example: <span>href="./your-image-path.jpg"</span></li>
+			     <li>Lastly, try writing the path without it. example: <span>href="your-image-path.jpg"</span></li>
+			   </ol>
+			 
+		   <p><strong>If that still does not do the trick, dont't loose hope. There are still a couple of things you are able to do.</strong></p>
+		   <li>Hover over to the file you intend to attach. <span>Right-click</span> on the file, it should give you a few options. Click on "Copy Path". Then paste it inside the quotation marks <span>("")</span> after <span>href=.</span></li>
+		   <p><strong>If for some reason <em>that still does not work.</em> There are two more other things you might want to try.</strong></p><button><a href="#top">Back to Top</a></button>
+		   
+		   <li>Check the width and height of your image, it could be that it is set to "0" and you are unable to see the image because of this. So be sure to set a width and height for your image.</li>
+		   <li>Lastly, open a browser window. Hover over to the image you want to add to your web site, but not from your "Workspace" in your HTML, do it from your file folder. <span>Left-click</span> and drag the file over to the search engine bar. Copy the path that appears on your search bar, and paste it to the corresponding area.</li>
+		 </ul>
+		 <!--end of list-->
+		 
+		 <!--motivation speach for user-->
+	<p>Good luck!!! hope this will help you solve your issue with a stubborn image that just won't appear.</p>
+
+</body>
+
+</html>
